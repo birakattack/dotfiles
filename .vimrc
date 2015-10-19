@@ -47,5 +47,9 @@ set clipboard=unnamed
 " remove all trailing whitespaces
 autocmd BufWritePre * :%s/\s\+$//e
 
-" remove preview window on complete
-autocmd CompleteDone * pclose
+" remove togle preview window
+" autocmd CompleteDone * pclose
+
+" Taglist
+let Tlist_Use_Horiz_Window = 0
+let Tlist_Use_Split_Window = 1
