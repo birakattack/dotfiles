@@ -7,3 +7,6 @@
 [submodule "bundle/dockerfile.vim"]
 	path = bundle/dockerfile.vim
 	url = https://github.com/ekalinin/Dockerfile.vim
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
