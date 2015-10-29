@@ -8,6 +8,7 @@ Installation
 3. Install build-essential, cmake, python-dev
 4. Go to the youcompleteme directory in ~/.vim/bundle/. Run:
 ```
+git submodule update --init --recursive
 ./install.py --clang-completer --gocode-completer --omnisharp-completer
 ```
 5. Install ctags-exuberant or exuberant-ctags
