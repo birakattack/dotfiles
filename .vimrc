@@ -30,7 +30,11 @@ set statusline+=%*
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_check_on_wq = 1
+let g:syntastic_python_checkers = ['pyflakes', 'flake8']
+let g:syntastic_aggregate_errors = 1
+hi SpellBad ctermfg=015 ctermbg=009 guifg=#FFFFFF guibg=#FF0000
+hi SpellCap ctermfg=015 ctermbg=166 guifg=#FFFFFF guibg=#D75F00
 
 " ctrlp default setup
 set runtimepath^=~/.vim/bundle/ctrlp.vim
