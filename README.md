@@ -16,3 +16,10 @@ git submodule update --init --recursive
     `sudo apt-get install exuberant-ctags`
   - Mac (Homebrew)
     `brew install ctags-exuberant`
+
+6. For neovim
+```
+mkdir ~/.config
+ln -s ~/.vim ~/.config/nvim
+ln -s ~/.vim/.vimrc ~/.config/nvim/init.vim
+```
